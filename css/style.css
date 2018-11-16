@@ -1,0 +1,457 @@
+body
+{
+	background-image: url(../img/background.png);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#video-background
+{
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+h1
+{
+	color: #FFFFFF;
+	position:relative;
+	text-align: center;
+	font-size: 400%;
+	margin-top: 20px;
+}
+
+h2
+{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 270%;
+	margin-top:-5px;
+}
+
+.head
+{
+	padding: 20px;
+	max-width: 600px;
+	height: 100px;
+	max-height: 130px;
+	background-image: url(../img/companylogoBG.png);
+	background-position: 50% 50%;	
+	background-size: cover;
+    margin: auto;
+
+}
+
+.head a
+{
+  float: initial;
+  font-size: 100%;
+  color: #FFFFFF;
+  display:inline;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu
+{
+	background-color: #808080;
+	background-size: cover;
+	height: 25px;
+	max-height: 25px;
+	max-width: 600px;
+    margin: auto;
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	word-spacing: -15px;	
+}
+.menu a 
+{
+  float: initial;
+  font-size: 100%;
+  color: #FFFFFF;
+  display:inline;
+  padding: 14px 16px;
+  text-decoration: none;
+  word-spacing: -15px;
+}
+ 
+ .kopjes
+{
+	background-color: #2699FB;
+	background-size: cover;
+    padding: 20px;
+	text-align: center;
+	max-width: 600px;
+	max-height: 100px;
+    margin: auto;
+	line-height: 0.55;
+	padding-top: 35px;
+	padding-bottom:5px;	
+	
+}
+ 
+.img
+{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width:640px;
+	height:310px;
+
+}
+
+p
+{
+	color: #FFFFFF;
+	font: bold;
+	font-size: 100%;
+	margin-bottom: -5px;
+}
+
+label
+{
+	color: #AAAAAA;
+	text-align:center;
+}
+
+form
+{
+	background-color:#F5F5F5;
+	max-width:600px;
+	margin:auto;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+fieldset
+{
+	border:none;
+}
+
+input[type="text"]
+{
+	max-width:100%;
+	width:100%;
+    margin: auto;
+	
+}
+input[type="email"]
+{
+	max-width:100%;
+	width:100%;
+    margin: auto;
+}
+input[type="submit"]
+{
+	width:95%;
+	max-width:100%;
+	padding: 10px;
+	background-color:#2699FB;
+	color: #FFFFFF;
+	font: bold;
+	font-size: 100%;
+	margin-left:15px;
+	margin-bottom:20px;
+}
+
+textarea
+{
+	max-width:100%;
+	width:100%;
+	margin: auto;
+}
+
+.footer
+{
+	background-color: #000000;
+	text-align: center;
+	max-width: 640px;
+	max-height: 30px;
+	margin: auto;
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+
+.rectangle
+{
+	background-color:#FFFFFF;
+	display: block;
+	max-width: 600px;
+	height: auto;
+    margin: auto;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	padding-top: 10px;
+}
+
+#foto1
+{ 
+	background-image: url(../img/product1.png);
+	position: relative;
+	margin-left: 3%;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+	
+}
+#foto2
+{ 
+	background-image: url(../img/product2.png);
+	position: relative;
+	
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+}
+#foto3
+{ 
+	background-image: url(../img/product3.png);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+}
+#foto4
+{ 
+	background-image: url(../img/product4.png);
+	position: relative;
+	margin-left: 3%;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+	border:none;
+}
+#foto5
+{ 
+	background-image: url(../img/product5.png);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+}
+#foto6
+{ 
+	background-image: url(../img/product6.png);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+}
+#foto7
+{ 
+	background-image: url(../image/product7.png);
+	position: relative;
+	margin-left: 3%;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+}
+#foto8
+{ 
+	background-image: url(../img/product8.png);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+}
+#foto9
+{ 
+	background-image: url(../img/product9.png);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+}
+#foto10
+{ 
+	background-image: url(../img/product10.png);
+	position: relative;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+	margin-left: 3%;
+}
+#product11
+{ 
+	background-image: url(../img/product11.png);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+}
+#foto12
+{ 
+	background-image: url(../img/product12.png);
+	position: relative;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	padding: 3px;
+}
+
+@media screen and (max-width: 360px) 
+{
+.rectangle
+{
+	display: none;
+}
+#foto1
+{
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+}
+
+#foto2
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+#foto3
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto4
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto5
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto6
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto7
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto8
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto9
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto10
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto11
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foto12
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en" >
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css" >
+	<link rel="shortcut icon" type="image/x-icon" href="img/favico.ico">
+	
+<head>
+	<title>T-Games Contact</title>
+	<meta charset = "utf-8" >
+	<meta name="author" content="Tayfun Tuncay">
+    <meta name="keywords" content="T-Games, Games, Mobilegames, Boardgames, Consolegames">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>x
+<video autoplay loop id="video-background" muted plays-inline>
+  <source src="./movie/background.mp4" type="video/mp4">
+</video>
+
+	<header class="head">
+		<h1><a href="index.html">T - GAMES</h1>
+	</header>
+
+	<nav class="menu">
+		<a href="index.html">HOME</a>
+		<a href="products.html">PRODUCT</a>
+		<a href="http://www.blogger.com ">BLOG</a>
+	</nav>
+
+	<figure class="kopjes">
+		<h2>CONTACT</h2>
+	</figure>
+
+<form action="sendtomail.php" method="post">
+	<label>More information</label>
+	<fieldset class="contactFormFieldset">
+		<input
+				type="blank"
+				name="select topic"
+				placeholder="Select topic"				
+		/>
+		
+		<select>
+			<option value="general">General inquiries</option>
+			<option value="press">Press relations</option>
+			<option value="recruitement">Recruitement</option>
+		</select>
+	</fieldset>
+	
+	<fieldset class="contactFormFieldset">
+		<input
+				type="text"
+				name="contactFormName"
+				placeholder="Your name.."
+		/>
+	</fieldset>
+	
+	<fieldset class="contactFormFieldset">
+		<input
+				type="email"
+				name="email"
+				placeholder="Your email.."
+		/>
+	</fieldset>
+	
+	<fieldset>
+		<textarea
+				rows="7"
+				cols="40"
+				name="message"
+				placeholder="Write something.."
+		>
+		</textarea>
+	</fieldset>
+	
+	<input
+			type="submit"
+			value="Submit"
+	/>
+</form>
+
+	<footer class="footer">
+		<p>© 2018 - Tayfun Tuncay - Inholland</p>
+	</footer>
+</body>
+</html>
